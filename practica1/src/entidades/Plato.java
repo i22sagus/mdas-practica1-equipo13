@@ -1,9 +1,10 @@
-// Archivo: Plato.java
+package entidades;
+
 public class Plato {
-    private String nombre;
+    private final String nombre;
     private double precio;
-    private TipoPlato tipo;
-    private TipoAcompanamiento acompanamiento;
+    private final TipoPlato tipo;
+    private final TipoAcompanamiento acompanamiento;
 
     public Plato(String nombre, double precio, TipoPlato tipo, TipoAcompanamiento acompanamiento) {
         this.nombre = nombre;
@@ -20,7 +21,7 @@ public class Plato {
     
     @Override
     public String toString() {
-        return nombre + " (" + precio + "€)" + 
+        return nombre + " [" + tipo + "] (" + precio + "€)" +
                (acompanamiento != TipoAcompanamiento.NINGUNO ? " con " + acompanamiento : "");
     }
 }

@@ -1,4 +1,7 @@
 
+package productos;
+
+import entidades.Plato;
 import java.util.ArrayList;
 import java.util.List;
 

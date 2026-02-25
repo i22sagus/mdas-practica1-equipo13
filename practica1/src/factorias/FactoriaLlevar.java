@@ -1,3 +1,12 @@
+package factorias;
+
+import entidades.Plato;
+import entidades.TipoAcompanamiento;
+import entidades.TipoPlato;
+import productos.Menu;
+import productos.MenuSemanal;
+import productos.MenuTemporada;
+
 public class FactoriaLlevar implements FactoriaAbstracta {
     private Plato aplicarRecargoLlevar(Plato plato) {
         plato.asignarPrecio(plato.getPrecio() * 1.02); // Incremento del 2%

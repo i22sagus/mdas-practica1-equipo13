@@ -1,3 +1,12 @@
+package factorias;
+
+import entidades.Plato;
+import entidades.TipoAcompanamiento;
+import entidades.TipoPlato;
+import productos.Menu;
+import productos.MenuSemanal;
+import productos.MenuTemporada;
+
 public class FactoriaRestaurante implements FactoriaAbstracta {
     @Override
     public Menu crearMenuSemanal(TipoAcompanamiento acompanamiento) {
