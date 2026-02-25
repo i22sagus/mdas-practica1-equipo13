@@ -1,0 +1,39 @@
+# =============================
+# Java - archivos compilados y empaquetados
+# =============================
+*.class
+*.jar
+*.war
+*.ear
+*.jmod
+
+# =============================
+# Directorios de compilación
+# =============================
+bin/
+build/
+out/
+target/
+
+# =============================
+# Logs y archivos temporales
+# =============================
+*.log
+*.tmp
+*.swp
+
+# =============================
+# IDEs y editores
+# =============================
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# =============================
+# Sistema operativo
+# =============================
+.DS_Store
+Thumbs.db

@@ -1,2 +1,7 @@
 # mdas-practica1-equipo13
-Practica 1: Abstract Factory
+
+Integrantes del equipo:
+
+- José Trujillo Medina - i22trmej
+- Sergio Sampedro Guerrero - i22sagus
+- Jorge González Vidal - i82govij
