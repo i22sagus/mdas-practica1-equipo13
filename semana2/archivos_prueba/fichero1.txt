@@ -1,0 +1,6 @@
+Linea 1 de Fichero 1
+Linea 2 de Fichero 1
+Linea 3 de Fichero 1
+Linea 1 de Fichero 2
+Linea 2 de Fichero 2
+Linea 3 de Fichero 2

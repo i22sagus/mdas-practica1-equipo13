@@ -25,7 +25,10 @@ public class MaquetadorBasico {
             int actual = 1;
             while ((linea = br.readLine()) != null) {
                 if (actual >= lineaInicio && actual <= lineaFin) {
-                    sb.append(linea).append("\n");
+                    if (!sb.isEmpty()) {
+                        sb.append("\n");
+                    }
+                    sb.append(linea);
                 }
                 if (actual > lineaFin) break; 
                 actual++;

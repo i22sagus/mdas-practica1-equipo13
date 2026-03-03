@@ -32,13 +32,13 @@ public class Main {
         MaquetadorAvanzado adaptador = new AdaptadorMaquetador(basico);
 
         System.out.println("Ejecutando operaciones avanzadas...");
-        
-        adaptador.unirFicheros(f1, f2);
-        System.out.println("- Fichero 2 unido al final del Fichero 1.");
 
-        List<int[]> extracciones = Arrays.asList(new int[]{1, 2}, new int[]{1, 2});
+        List<int[]> extracciones = Arrays.asList(new int[]{1, Integer.MAX_VALUE}, new int[]{1, Integer.MAX_VALUE});
         adaptador.combinarFicheros(f1, f2, extracciones);
         System.out.println("- Ficheros combinados en 'combinado.txt'.");
+
+        adaptador.unirFicheros(f1, f2);
+        System.out.println("- Fichero 2 unido al final del Fichero 1.");
 
         List<Integer> cortes = Arrays.asList(3);
         adaptador.separarFichero(f1, cortes);
