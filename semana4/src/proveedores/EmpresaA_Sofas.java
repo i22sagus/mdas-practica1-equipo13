@@ -5,7 +5,9 @@ import java.util.stream.Collectors;
 
 public class EmpresaA_Sofas implements IProveedor {
     private List<Sofa> stockSofas = new ArrayList<>();
-
+    public void agregarSofa(Sofa s) {
+        this.stockSofas.add(s);
+    }
     public EmpresaA_Sofas() {
         // Aquí se inicializaría el stock (ej. añadiendo sofás a la lista)
     }

@@ -8,9 +8,13 @@ public class EmpresaC_Multiproducto implements IProveedor {
     private List<Producto> stockProductos = new ArrayList<>();
 
     // Métodos auxiliares para cargar datos desde el Main
-    public void agregarSofa(Sofa s) { stockProductos.add(s); }
-    public void agregarMesa(Mesa m) { stockProductos.add(m); }
+    public void agregarSofa(Sofa s) {
+        this.stockProductos.add(s);
+    }
 
+    public void agregarMesa(Mesa m) {
+        this.stockProductos.add(m);
+    }
     @Override
     public List<Producto> buscarComun(String material, double minPrecio, double maxPrecio, String color) {
         return stockProductos.stream()

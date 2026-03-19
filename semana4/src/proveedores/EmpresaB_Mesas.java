@@ -7,8 +7,8 @@ public class EmpresaB_Mesas implements IProveedor {
     private List<Mesa> stockMesas = new ArrayList<>();
 
     // Método auxiliar para cargar datos desde el Main
-    public void agregarMesa(Mesa m) {
-        stockMesas.add(m);
+   public void agregarMesa(Mesa m) {
+        this.stockMesas.add(m);
     }
 
     @Override

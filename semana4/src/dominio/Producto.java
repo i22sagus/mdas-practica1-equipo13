@@ -15,6 +15,7 @@ public abstract class Producto {
 
     public double getPrecio() { return precio; }
     public int getUnidades() { return unidades; }
+    public String getNombre() { return nombre; }
     public String getId() { return id; }
     public void setUnidades(int unidades) { this.unidades = unidades; }
 }
